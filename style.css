@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+}
+
+.cartes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+}
+
+input {
+    text-align: center;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 40px;
+    gap: 10px;
+}
+
+.boutton{
+    height:20px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+.atkdefbuttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 30px;
+    gap: 300px;
+}
+
+p {
+    text-align: center;
+}
+
+

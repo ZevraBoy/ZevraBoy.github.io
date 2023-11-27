@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>YU-GI-OH OCTAVE.</h1>
+        <p>Ceci est un micro-logiciel web pour Octave permettant de comparer deux cartes yu-gi-oh.</p>
+    </header>
+    
+    <div class="cartes">
+    <img src="Images/2063670_b8d7e.jpg" alt="Carte Vierge">
+    <img src="Images/2063670_b8d7e.jpg" alt="Carte Vierge">
+    </div>
+    
+    <div class="atkdefbuttons">
+    <input type="checkbox" class="atkdef1">
+    <input type="checkbox" class="atkdef2">
+    </div>
+
+    <p>V = Atk un = Def</p>
+
+    <div class="forms">
+    <label for="ATK Carte 1">ATK Carte 1</label>
+    <input type="number" id="atkCarte1" name="ATK Carte 1" min="0" max="10000"> 
+    <label for="DEF Carte 1">DEF Carte 1</label>
+    <input type="number" id="defCarte1" name="DEF Carte 1" min="0" max="10000"> 
+    <label for="ATK Carte 2">ATK Carte 2</label>
+    <input type="number" id="atkCarte2" name="ATK Carte 2" min="0" max="10000"> 
+    <label for="DEF Carte 2">DEF Carte 2</label>
+    <input type="number" id="defCarte2" name="DEF Carte 2" min="0" max="10000"> 
+    </div>
+
+    <button class="boutton" onclick="recupererCarte()">Recuperer la valeur</button>
+
+
+</body>
+</html>
